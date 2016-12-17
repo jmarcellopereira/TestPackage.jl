@@ -2,14 +2,19 @@ module TestPackage
 
 # package code goes here
 
-export foo
+export fteste1
+export fteste2
 
-function foo()
-	println("Foo was Called")
+function fteste1()
+	println("teste1 OK")
 end
 
-function bar()
-	println("Bar was Called")
+function fteste2()
+	println("teste2 OK")
+end
+
+function fteste3()
+	println("teste3 OK")
 end
 
 end # module
